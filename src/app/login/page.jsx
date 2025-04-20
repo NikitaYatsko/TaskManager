@@ -18,7 +18,7 @@ const LoginPage = () => {
 
         if (data.email === hardcodedEmail && data.password === hardcodedPassword) {
             console.log('Auth successful')
-            router.push('/') // перекидываем на главную
+            router.push('/')
         } else {
             alert('Неверный логин или пароль')
         }
