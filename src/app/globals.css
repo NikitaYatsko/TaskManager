@@ -1,5 +1,5 @@
 :root {
-  --background: #ada9a9;
+  --background: #d1cfcf;
   --foreground: #171717;
 }
 
@@ -10,13 +10,16 @@ body {
 }
 
 body {
+  padding-left: 70px;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.tasks{
+  display: flex;
+}
 * {
   box-sizing: border-box;
   padding: 0;

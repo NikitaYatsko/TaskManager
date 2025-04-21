@@ -1,11 +1,11 @@
 import './styles.scss'
 
-const Navbar = () => {
+const Navbar = ({setModal,amountOfTasks}) => {
     return (
         <div className='navbar'>
-            <div>Hello Admin you have 4 tasks</div>
+            <div>Hello Admin you have {amountOfTasks} tasks</div>
             <div>
-                <button className='navbar-addbutton'>
+                <button onClick={()=>setModal(true)} className='navbar-addbutton'>
                     Add new Task
                 </button>
             </div>

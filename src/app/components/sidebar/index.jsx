@@ -2,12 +2,15 @@ import './styles.scss'
 import {LuLayoutDashboard} from "react-icons/lu";
 import {MdChecklist} from "react-icons/md";
 import {CiSettings} from "react-icons/ci";
-import Navbar from "@/app/components/navbar";
+import {RiTaskLine} from "react-icons/ri";
 
-const Sidebar = ({children}) => {
+const Sidebar = () => {
     return (
-        <>
-            <div className="sidebar">
+
+        <div className="sidebar">
+            <RiTaskLine className="main-logo"/>
+            <h3>Tasker</h3>
+            <div>
                 <ul className="sidebar-list">
                     <li className="sidebar-item">
                         <LuLayoutDashboard className='sidebar-icons'/>
@@ -20,11 +23,9 @@ const Sidebar = ({children}) => {
                     </li>
                 </ul>
             </div>
-            <main className='main'>
+        </div>
 
-                {children}
-            </main>
-        </>
+
     )
 }
 export default Sidebar;
