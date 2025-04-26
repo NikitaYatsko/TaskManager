@@ -3,6 +3,7 @@ import {LuLayoutDashboard} from "react-icons/lu";
 import {MdChecklist} from "react-icons/md";
 import {CiSettings} from "react-icons/ci";
 import {RiTaskLine} from "react-icons/ri";
+import {FaRegStar} from "react-icons/fa";
 
 const Sidebar = () => {
     return (
@@ -17,6 +18,9 @@ const Sidebar = () => {
                     </li>
                     <li className="sidebar-item">
                         <MdChecklist className='sidebar-icons'/>
+                    </li>
+                    <li>
+                        <FaRegStar className='sidebar-icons'/>
                     </li>
                     <li className="sidebar-item">
                         <CiSettings className='sidebar-icons'/>

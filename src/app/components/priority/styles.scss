@@ -1,8 +1,10 @@
 @import "src/app/vars";
 
 .priority-wrapper {
+  margin-bottom: 20px;
   width: 200px;
   border-radius: 5px;
+  align-items: center;
   display: flex;
   gap: 5px;
   padding: 5px;

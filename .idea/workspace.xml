@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7324012e-dc5b-4f97-8d05-73ab6c84d454" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/TaskCard/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/priority/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/priority/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/TaskCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TaskCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/TaskCard/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TaskCard/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/modal/modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/modal/modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/modal/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/modal/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/navbar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/navbar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/priority/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/priority/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/priority/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/priority/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/register/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,9 @@
       <workItem from="1745069533293" duration="4655000" />
       <workItem from="1745136514880" duration="6578000" />
       <workItem from="1745228707784" duration="5018000" />
-      <workItem from="1745233754124" duration="6030000" />
+      <workItem from="1745233754124" duration="6202000" />
+      <workItem from="1745402051262" duration="13314000" />
+      <workItem from="1745665087721" duration="2778000" />
     </task>
     <servers />
   </component>
