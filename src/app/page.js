@@ -126,6 +126,8 @@ export default function Home() {
                     {filteredTasks.map((task) => (
                         <TaskCard
                             key={task.id}
+                            id={task.id}
+                            task={task}
                             title={task.title}
                             description={task.description}
                             priority={task.priority.charAt(0).toUpperCase() + task.priority.slice(1)}

@@ -6,18 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7324012e-dc5b-4f97-8d05-73ab6c84d454" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/TaskCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TaskCard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/TaskCard/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TaskCard/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/modal/modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/modal/modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/priority/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/priority/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/priority/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/priority/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/login/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/register/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="JSX File" />
+        <option value="package.json" />
         <option value="SCSS File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -55,7 +48,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/TaskManager&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yaksa/Desktop/TaskManager&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -98,6 +91,9 @@
       <workItem from="1745233754124" duration="6202000" />
       <workItem from="1745402051262" duration="13314000" />
       <workItem from="1745665087721" duration="2778000" />
+      <workItem from="1745767188547" duration="1208000" />
+      <workItem from="1745768623339" duration="572000" />
+      <workItem from="1745769292367" duration="612000" />
     </task>
     <servers />
   </component>

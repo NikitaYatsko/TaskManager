@@ -3,6 +3,7 @@ import "./globals.css";
 import Sidebar from "@/app/components/sidebar";
 import Navbar from "@/app/components/navbar";
 import Modal from "@/app/components/modal/modal";
+import {FavouriteProvider} from "@/app/context/FavouriteContext";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -23,7 +24,9 @@ export default function RootLayout({children}) {
     return (
         <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <FavouriteProvider>
+            {children}
+        </FavouriteProvider>
         </body>
         </html>
     );

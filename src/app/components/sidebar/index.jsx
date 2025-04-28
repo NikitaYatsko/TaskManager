@@ -14,13 +14,19 @@ const Sidebar = () => {
             <div>
                 <ul className="sidebar-list">
                     <li className="sidebar-item">
-                        <LuLayoutDashboard className='sidebar-icons'/>
+                        <a href="/">
+                            <LuLayoutDashboard className='sidebar-icons'/>
+                        </a>
                     </li>
                     <li className="sidebar-item">
-                        <MdChecklist className='sidebar-icons'/>
+                        <a href="/completed">
+                            <MdChecklist className='sidebar-icons'/>
+                        </a>
                     </li>
                     <li>
-                        <FaRegStar className='sidebar-icons'/>
+                        <a href="/favourites">
+                            <FaRegStar className='sidebar-icons'/>
+                        </a>
                     </li>
                     <li className="sidebar-item">
                         <CiSettings className='sidebar-icons'/>
