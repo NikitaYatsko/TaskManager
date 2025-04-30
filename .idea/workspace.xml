@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7324012e-dc5b-4f97-8d05-73ab6c84d454" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/TaskCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TaskCard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/context/FavouriteContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/context/FavouriteContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/favourites/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favourites/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +93,8 @@
       <workItem from="1745767188547" duration="1208000" />
       <workItem from="1745768623339" duration="572000" />
       <workItem from="1745769292367" duration="612000" />
+      <workItem from="1745838174937" duration="1230000" />
+      <workItem from="1746031717342" duration="4255000" />
     </task>
     <servers />
   </component>

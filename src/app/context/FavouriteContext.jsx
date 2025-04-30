@@ -49,9 +49,12 @@ export const FavouriteProvider = ({ children }) => {
     };
 
     const addFavourite = async (task) => {
-        const updatedFavourites = [...favourites, task];
-        setFavourites(updatedFavourites);
-        await saveFavourites(updatedFavourites);
+        // Проверяем, нет ли уже этой задачи в избранном
+        if (!favourites.some(fav => fav.id === task.id)) {
+            const updatedFavourites = [...favourites, task];
+            setFavourites(updatedFavourites);
+            await saveFavourites(updatedFavourites);
+        }
     };
 
     const removeFavourite = async (id) => {

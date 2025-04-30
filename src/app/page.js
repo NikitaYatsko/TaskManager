@@ -7,12 +7,14 @@ import Modal from "@/app/components/modal/modal";
 import {TaskCard} from "@/app/components/TaskCard";
 import {Priority} from "@/app/components/priority";
 import Main from "@/app/components/main";
+import { useFavourites } from "@/app/context/FavouriteContext";
 
 export default function Home() {
     const [modal, setModal] = useState(false);
     const [tasks, setTasks] = useState([]);
     const [editableTask, setEditableTask] = useState(null);
     const [filter, setFilter] = useState("All");
+    const { isFavourite } = useFavourites();
 
     const handleFilterChange = (value) => {
         setFilter(value);
@@ -130,7 +132,7 @@ export default function Home() {
                             task={task}
                             title={task.title}
                             description={task.description}
-                            priority={task.priority.charAt(0).toUpperCase() + task.priority.slice(1)}
+                            priority={task.priority}
                             dueDate={task.dueDate}
                             onEdit={() => handleEdit(task)}
                             onDelete={() => handleDelete(task)}

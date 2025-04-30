@@ -24,7 +24,7 @@ export default function FavouritesPage() {
                                 task={task}
                                 title={task.title}
                                 description={task.description}
-                                priority={task.priority.charAt(0).toUpperCase() + task.priority.slice(1)}
+                                priority={task.priority}
                                 dueDate={task.dueDate}
                                 onEdit={() => {}} // На этой странице редактировать не нужно
                                 onDelete={() => {}} // И удалять тоже
